@@ -6,7 +6,11 @@ public class DeferredExecutionTests
 {
     public IEnumerable<Wrapper<T>> CreateWrapper<T>(IEnumerable<T> items)
     {
-        return items.Select(item => new Wrapper<T>(item));
+        return items.Select(item =>
+        {
+            Console.WriteLine($"Create wrapper for {item}");
+            return new Wrapper<T>(item);
+        });
     }
 
     [Test]
