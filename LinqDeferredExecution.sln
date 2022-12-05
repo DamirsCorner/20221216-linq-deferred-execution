@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqDeferredExecution", "LinqDeferredExecution\LinqDeferredExecution.csproj", "{B898BA68-0473-4A93-B03E-E20AFB42F87D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B898BA68-0473-4A93-B03E-E20AFB42F87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B898BA68-0473-4A93-B03E-E20AFB42F87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B898BA68-0473-4A93-B03E-E20AFB42F87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B898BA68-0473-4A93-B03E-E20AFB42F87D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32C6FC69-3325-47BC-A19C-6399C550BB48}
+	EndGlobalSection
+EndGlobal
